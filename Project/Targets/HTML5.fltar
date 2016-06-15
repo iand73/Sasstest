@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterStylesheet="/Content/Resources/Stylesheets/output.css"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  Skin="(none)"
+  TargetLanguage="en-gb,fr_../../SassTest - French/SassTest.flprj"
+  MasterPage="/Content/Resources/DefaultMasterPage.flmsp">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

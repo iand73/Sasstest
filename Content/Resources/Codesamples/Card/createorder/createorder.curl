@@ -1,0 +1,8 @@
+﻿$ curl -X POST -H "Content-Type: application/json" \
+  -u %%NETBANXAPIKEY%% \
+     https://api.test.netbanx.com/hosted/v1/orders \
+  -d '{
+          "merchantRefNum" : "ABCDE12345",
+          "currencyCode"   : "GBP",
+          "totalAmount"    : 1000
+      }'

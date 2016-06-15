@@ -1,0 +1,1203 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Currencies;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	max-id: 7;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+	background-color: #eeece1;
+	cell-padding-left: 0.30cm;
+	cell-padding-bottom: 0.1cm;
+	cell-padding-top: 0.1cm;
+	cell-content-style-tag: p;
+	cell-content-style-class: body;
+	font-weight: bold;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 6;
+	name: Column2;
+	separator-style: solid;
+	separator-width: 1px;
+	cell-padding-left: 0.3cm;
+	cell-padding-top: 0.1cm;
+	cell-padding-bottom: 0.1cm;
+	cell-content-style-tag: p;
+	cell-content-style-class: body;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+}
+
+mcTableBodyStyle
+{
+	span: 2;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Body1;
+	id: 1;
+}
+
+mcTableBodyStyle
+{
+	span: 2;
+	id: 7;
+	name: Body2;
+	background-color: #f08080;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Footer1;
+	id: 3;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Currencies
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Currencies-Column-Column1
+{
+	
+}
+
+.TableStyle-Currencies-Column-Column2
+{
+	
+}
+
+.TableStyle-Currencies-Head-Header1
+{
+	
+}
+
+.TableStyle-Currencies-HeadI-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadI-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadE-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Currencies-HeadE-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadF-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Currencies-HeadF-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadH-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-HeadH-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadD-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Currencies-HeadD-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadC-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadC-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadB-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-HeadB-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadA-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadA-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadG-Column1-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadG-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-HeadI-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadI-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadE-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Currencies-HeadE-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadF-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Currencies-HeadF-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadH-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-HeadH-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadD-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Currencies-HeadD-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadC-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadC-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadB-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-HeadB-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadA-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadA-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-HeadG-Column2-Header1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-HeadG-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-Currencies-Foot-Footer1
+{
+	
+}
+
+.TableStyle-Currencies-FootI-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootI-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootE-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-Currencies-FootE-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootF-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-Currencies-FootF-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootH-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-FootH-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootD-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-Currencies-FootD-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootC-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootC-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootB-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-FootB-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootA-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootA-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootG-Column1-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootG-Column1-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-FootI-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootI-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootE-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-Currencies-FootE-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootF-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-Currencies-FootF-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootH-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-FootH-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootD-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-Currencies-FootD-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootC-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootC-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootB-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-FootB-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootA-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootA-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-FootG-Column2-Footer1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-FootG-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-Currencies-Body-Body1
+{
+	
+}
+
+.TableStyle-Currencies-BodyI-Column1-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyI-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyE-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyE-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyF-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyF-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyH-Column1-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyH-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyD-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyD-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyC-Column1-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyC-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyB-Column1-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyB-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyA-Column1-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyA-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyG-Column1-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyG-Column1-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyI-Column2-Body1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyE-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyF-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyH-Column2-Body1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyD-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyC-Column2-Body1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyB-Column2-Body1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyA-Column2-Body1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyG-Column2-Body1
+{
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyG-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Currencies-Body-Body2
+{
+	
+}
+
+.TableStyle-Currencies-BodyI-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyI-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyE-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyE-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyF-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyF-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyH-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyH-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyD-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyD-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyC-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyC-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyB-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyB-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyA-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyA-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyG-Column1-Body2
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyG-Column1-Body2 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-Currencies-BodyI-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyI-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyE-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyE-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyF-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyF-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyH-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyH-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyD-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyD-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyC-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyC-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyB-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-Currencies-BodyB-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyA-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyA-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Currencies-BodyG-Column2-Body2
+{
+	background-color: #f08080;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-Currencies-BodyG-Column2-Body2 p
+{
+	
+}
+
+

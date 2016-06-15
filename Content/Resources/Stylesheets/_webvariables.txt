@@ -1,0 +1,11 @@
+$caption-color: #852064;
+$caption-font: 'Arial';
+$caption-size: 11pt;
+$caption-height: $caption-size+2pt;
+
+$body-font: 'Times New Roman';
+$body-color: #000000;
+$body-size: 12pt;
+$body-height: $body-size+2pt;
+
+$indent: 20pt;

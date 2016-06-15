@@ -1,0 +1,960 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: CurrenciesAndCountries;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	max-id: 6;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+	background-color: #ffffff;
+	cell-padding-left: 0.30cm;
+	cell-padding-bottom: 0.1cm;
+	cell-padding-top: 0.1cm;
+	cell-content-style-tag: p;
+	cell-content-style-class: body;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 6;
+	name: Column2;
+	separator-style: solid;
+	separator-width: 1px;
+	background-color: #eeece1;
+	cell-padding-left: 0.3cm;
+	cell-padding-top: 0.1cm;
+	cell-padding-bottom: 0.1cm;
+	cell-content-style-tag: p;
+	cell-content-style-class: body;
+	font-weight: bold;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Body1;
+	id: 1;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Footer1;
+	id: 3;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-CurrenciesAndCountries
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-CurrenciesAndCountries-Column-Column1
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-Column-Column2
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-Head-Header1
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadI-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadI-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadE-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadE-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadF-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadF-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadH-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadH-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadD-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadD-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadC-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadC-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadB-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadB-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadA-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadA-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadG-Column1-Header1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadG-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-HeadI-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadI-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadE-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadE-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadF-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadF-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadH-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadH-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadD-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadD-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadC-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadC-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadB-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadB-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadA-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadA-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadG-Column2-Header1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-HeadG-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-Foot-Footer1
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootI-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootI-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootE-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootE-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootF-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootF-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootH-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootH-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootD-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootD-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootC-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootC-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootB-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootB-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootA-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootA-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootG-Column1-Footer1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootG-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-FootI-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootI-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootE-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootE-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootF-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootF-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootH-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootH-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootD-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootD-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootC-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootC-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootB-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-FootB-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootA-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootA-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-FootG-Column2-Footer1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-FootG-Column2-Footer1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-Body-Body1
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyI-Column1-Body1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyE-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyF-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyH-Column1-Body1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyD-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyC-Column1-Body1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyB-Column1-Body1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyA-Column1-Body1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyG-Column1-Body1
+{
+	background-color: #ffffff;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-CurrenciesAndCountries-BodyI-Column2-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyI-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyE-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyE-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyF-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyF-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyH-Column2-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyH-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyD-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyD-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyC-Column2-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyC-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyB-Column2-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyB-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyA-Column2-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyA-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyG-Column2-Body1
+{
+	font-weight: bold;
+	background-color: #eeece1;
+	padding-left: 0.3cm;
+	padding-top: 0.1cm;
+	padding-bottom: 0.1cm;
+}
+
+.TableStyle-CurrenciesAndCountries-BodyG-Column2-Body1 p
+{
+	font-weight: bold;
+}
+
+

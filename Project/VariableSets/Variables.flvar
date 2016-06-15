@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="Version"
+    EvaluatedDefinition="1.0">1.0</Variable>
+  <Variable
+    Name="API"
+    Comment=""
+    EvaluatedDefinition="Card">Card</Variable>
+</CatapultVariableSet>

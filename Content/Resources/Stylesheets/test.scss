@@ -1,0 +1,121 @@
+$emerald: #66CC99;
+$gold: #FFE600;
+$charcoal: #333333;
+$lightcharcoal: #999999;
+$greyblue: #323746;
+
+$emerald20: #e0f5eb;
+$emerald40: #c2ebd6;
+$emerald60: #a3e0c2;
+$emerald80: #84d6ad;
+
+$charcoal20: #d6d6d6;
+$charcoal40: #adadad;
+$charcoal60: #848484;
+$charcoal80: #5b5b5b;
+
+$lightcharcoal20: #ebebeb;
+$lightcharcoal40: #d6d6d6;
+$lightcharcoal60: #c2c2c2;
+$lightcharcoal80: #adadad;
+
+$greyblue20: #d6d7da;
+$greyblue40: #adafb5;
+$greyblue60: #848790;
+$greyblue80: #5b5f6b;
+
+$gold20: #fffacc;
+$gold40: #fff599;
+$gold60: #fff066;
+$gold80: #ffeb33;
+
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  }
+
+  @return $value;
+}
+
+@function concatmultiple($number, $addstring) {
+  
+	$string: "";
+	 @if $number > 0 {
+    @for $i from 1 through $number {
+      $string: $string + $addstring;
+    }
+  }
+  @return $string;
+}
+
+@mixin callout($text, $color)	
+{
+	border-top: 1 * $pixel solid black;
+	color: $color;
+	mc-auto-number-format: '{color ' + $color+ '}{b}'+$text+' {/b}';
+	mc-next-tag: p;
+	border-bottom: 1 * $pixel solid black;
+	line-height: ($body-height+5) * $fontunit;
+}
+
+@mixin webcalloutbefore($text, $color)	
+{
+	color: $color;
+	mc-next-tag: p;
+	content: $text;
+}
+
+@mixin webcallout	
+{
+
+}
+
+
+@import '_printvariables';
+$type: print;
+
+
+/* PRINT STYLESHEET  */
+
+@media print
+{
+@import  'styles.scss';
+
+p.note  { @include callout('Note: ',$emerald); }
+p.warning  { @include callout('Warning: ',#ff0000); }
+p.tip { @include callout('Tip: ',orange); }
+div.tip { @include callout('Tip: ',orange); }
+div.note  { @include callout('Note: ',$emerald); }
+div.warning  { @include callout('Warning: ',#ff0000); }
+
+}
+
+@import '_webvariables.scss';
+$type: web;
+
+/* WEB STYLESHEET  */
+
+@media screen
+{
+@import  '_styles.scss';
+
+p.note:before  { @include webcalloutbefore('Note:',$emerald); }
+p.warning:before  { @include webcalloutbefore('Warning:',#ff0000); }
+p.tip:before   { @include webcalloutbefore('Tip:',orange); }
+div.tip:before   { @include webcalloutbefore('Tip:',orange); }
+div.note:before   { @include webcalloutbefore('Note:',$emerald); }
+div.warning:before  { @include webcalloutbefore('Warning:',#ff0000); }
+
+p.note:before  { @include webcallout; }
+p.warning:before  { @include webcallout; }
+p.tip:before   { @include webcallout; }
+div.tip:before   { @include webcallout; }
+div.note:before   { @include webcallout; }
+div.warning:before  { @include webcallout; }
+
+
+}

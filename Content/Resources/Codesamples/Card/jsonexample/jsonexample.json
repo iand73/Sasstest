@@ -1,0 +1,18 @@
+{
+   "currencyCode" : "GBP",
+   "id" : "25TWPTLHRR81AIG1LF",
+   "link" : [
+      {
+         "rel" : "hosted_payment",
+         "uri" : "https://api.test.netbanx.com/hosted/v1/payment/53616c7465645f5fc96311a769ed171ce70fac1483fa7f6d9ecfb6d427c1e12c6fc573a35f13e0ea"
+      },
+      {
+         "rel" : "self",
+         "uri" : "https://jTxL2wsNysJ8Jzmpdwim:NAA043a7c53c66ac3826c5e@api.test.netbanx.com/hosted/v1/orders/25TWPTLHRR81AIG1LF"
+      }
+   ],
+   "merchantRefNum" : "ABCDE12345",
+   "mode" : "live",
+   "totalAmount" : 1000,
+   "type" : "order"
+}

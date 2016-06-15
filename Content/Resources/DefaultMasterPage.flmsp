@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="108" MadCap:lastWidth="1223">
+    <head>
+    </head>
+    <body>
+        <MadCap:breadcrumbsProxy />
+        <div id="typo3content">
+            <MadCap:bodyProxy />
+        </div>
+        <p class="versioninfo"><MadCap:variable name="Variables.Version" /><MadCap:variable name="Variables.API" />
+        </p>
+    </body>
+</html>

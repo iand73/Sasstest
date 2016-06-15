@@ -1,0 +1,1662 @@
+/* PRINT STYLESHEET  */
+@media print {
+  .test {
+    color: #84d6ad;
+    color: #a3e0c2;
+    color: #c2ebd6;
+    color: #e0f5eb; }
+
+  div.nopagebreak {
+    page-break-inside: avoid; }
+
+  div.pagebreakbefore {
+    page-break-before: always; }
+
+  .code {
+    unicode-bidi: embed;
+    font-family: monospace;
+    color: red;
+    white-space: pre;
+    mc-language: none;
+    mc-hyphenate: never; }
+
+  .parameter {
+    background: #adadad;
+    font-family: monospace;
+    color: white;
+    mc-language: none; }
+
+  .nospell {
+    mc-language: none; }
+
+  p.FigureCaption {
+    text-align: left;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    letter-spacing: 0cm;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 11pt;
+    color: #852064;
+    mc-hyphenate: never;
+    text-indent: 0cm;
+    line-height: 13pt;
+    text-decoration: none; }
+
+  .UItext {
+    font-family: Arial;
+    font-weight: bold; }
+
+  p {
+    text-align: left;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    letter-spacing: 0cm;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 0cm; }
+
+  p.indent0 {
+    text-align: left;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    letter-spacing: 0cm;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 0cm; }
+
+  table.gridtable0 {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    margin-left: 0cm; }
+
+  div.codesample0 {
+    background-color: gray;
+    margin-left: 0cm; }
+
+  div.codesample0:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn0 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 0cm; }
+
+  table.gridtable0 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    separator-style: double;
+    separator-width: 3px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable0 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable0 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable0 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable0 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable0 tbody tr.subhead td {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable0 tbody tr.subhead td p {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  p.indent1 {
+    text-align: left;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    letter-spacing: 0cm;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 1cm; }
+
+  table.gridtable1 {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    margin-left: 1cm; }
+
+  div.codesample1 {
+    background-color: gray;
+    margin-left: 1cm; }
+
+  div.codesample1:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn1 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 1cm; }
+
+  table.gridtable1 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    separator-style: double;
+    separator-width: 3px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable1 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable1 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable1 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable1 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable1 tbody tr.subhead td {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable1 tbody tr.subhead td p {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  p.indent2 {
+    text-align: left;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    letter-spacing: 0cm;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 2cm; }
+
+  table.gridtable2 {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    margin-left: 2cm; }
+
+  div.codesample2 {
+    background-color: gray;
+    margin-left: 2cm; }
+
+  div.codesample2:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn2 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 2cm; }
+
+  table.gridtable2 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    separator-style: double;
+    separator-width: 3px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable2 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable2 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable2 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable2 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable2 tbody tr.subhead td {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable2 tbody tr.subhead td p {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  p.indent3 {
+    text-align: left;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    letter-spacing: 0cm;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 3cm; }
+
+  table.gridtable3 {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    margin-left: 3cm; }
+
+  div.codesample3 {
+    background-color: gray;
+    margin-left: 3cm; }
+
+  div.codesample3:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn3 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 3cm; }
+
+  table.gridtable3 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    separator-style: double;
+    separator-width: 3px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable3 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 3px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable3 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable3 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 12pt;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    color: magenta; }
+
+  table.gridtable3 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable3 tbody tr.subhead td {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  table.gridtable3 tbody tr.subhead td p {
+    background-color: yellow;
+    text-align: left;
+    font-weight: bold;
+    line-height: 14pt;
+    font-family: "Helvetica";
+    font-size: 12pt;
+    color: green; }
+
+  div.image {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    page-break-inside: avoid; }
+
+  caption {
+    margin-top: 0.3cm;
+    margin-bottom: 0.3cm; }
+
+  table.noborder {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-collapse: collapse;
+    border-style: none; }
+
+  table.noborder td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 0px;
+    padding: 4 4 8 8 px;
+    font-size: 10pt;
+    border-style: none;
+    background-color: white;
+    separator-style: none; }
+
+  h1 {
+    font-size: 25pt;
+    font-weight: 600;
+    mc-auto-number-format: "CH:{chapnum}.{n+}.";
+    color: black;
+    mc-auto-number-position: inside-head;
+    mc-auto-number-offset: 0cm;
+    mc-auto-number-class: Bullet2; }
+
+  h2 {
+    font-size: 20pt;
+    font-weight: 600;
+    mc-auto-number-format: "CH:{chapnum}.{n}.{n+}.";
+    color: black;
+    mc-auto-number-position: inside-head;
+    mc-auto-number-offset: 0cm;
+    mc-auto-number-class: Bullet2; }
+
+  h3 {
+    font-size: 16pt;
+    font-weight: 600;
+    mc-auto-number-format: "CH:{chapnum}.{n}.{n}.{n+}.";
+    color: black;
+    mc-auto-number-position: inside-head;
+    mc-auto-number-offset: 0cm;
+    mc-auto-number-class: Bullet2; }
+
+  h4 {
+    font-size: 13pt;
+    font-weight: 600;
+    mc-auto-number-format: "CH:{chapnum}.{n}.{n}.{n}.{n+}.";
+    color: black;
+    mc-auto-number-position: inside-head;
+    mc-auto-number-offset: 0cm;
+    mc-auto-number-class: Bullet2; }
+
+  ul {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    margin-left: 0cm;
+    padding-left: 1cm;
+    list-style: disc;
+    list-style-position: outside; }
+
+  ol {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    margin-left: 0cm;
+    padding-left: 1cm;
+    list-style-type: decimal;
+    list-style-position: outside; }
+
+  ul ol,
+  ol ol {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 1cm;
+    list-style-type: lower-roman;
+    list-style-position: outside; }
+
+  ul ul,
+  ol ul {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 1cm;
+    list-style-type: square;
+    list-style-position: outside; }
+
+  ol ol ol,
+  ul ol ol,
+  ul ul ol,
+  ol ul ol {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 1cm;
+    list-style-type: lower-alpha;
+    list-style-position: outside; }
+
+  ul ul ul,
+  ol ul ul,
+  ol ol ul,
+  ul ol ul {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 1cm;
+    list-style-type: none;
+    list-style-position: outside; }
+
+  p.note {
+    border-top: 1px solid black;
+    color: #66CC99;
+    mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt; }
+
+  p.warning {
+    border-top: 1px solid black;
+    color: #ff0000;
+    mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt; }
+
+  p.tip {
+    border-top: 1px solid black;
+    color: orange;
+    mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt; }
+
+  div.tip {
+    border-top: 1px solid black;
+    color: orange;
+    mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt; }
+
+  div.note {
+    border-top: 1px solid black;
+    color: #66CC99;
+    mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt; }
+
+  div.warning {
+    border-top: 1px solid black;
+    color: #ff0000;
+    mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt; } }
+/* WEB STYLESHEET  */
+@media screen {
+  .test {
+    color: #84d6ad;
+    color: #a3e0c2;
+    color: #c2ebd6;
+    color: #e0f5eb; }
+
+  div.nopagebreak {
+    page-break-inside: avoid; }
+
+  div.pagebreakbefore {
+    page-break-before: always; }
+
+  .code {
+    unicode-bidi: embed;
+    font-family: monospace;
+    color: red;
+    white-space: pre;
+    mc-language: none;
+    mc-hyphenate: never; }
+
+  .parameter {
+    background: #adadad;
+    font-family: monospace;
+    color: white;
+    mc-language: none; }
+
+  .nospell {
+    mc-language: none; }
+
+  p.FigureCaption {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 11pt;
+    color: #852064;
+    mc-hyphenate: never;
+    text-indent: 0em;
+    line-height: 13pt;
+    text-decoration: none; }
+
+  .UItext {
+    font-family: Arial;
+    font-weight: bold; }
+
+  p {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 0em; }
+
+  p.indent0 {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 0em; }
+
+  table.gridtable0 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    margin-left: 0em; }
+
+  div.codesample0 {
+    background-color: gray;
+    margin-left: 0em; }
+
+  div.codesample0:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn0 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 0em; }
+
+  table.gridtable0 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    separator-style: double;
+    separator-width: 1px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable0 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: #a6a6a6;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable0 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable0 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable0 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable0 tbody tr.subhead td {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable0 tbody tr.subhead td p {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  p.indent1 {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 3em; }
+
+  table.gridtable1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    margin-left: 3em; }
+
+  div.codesample1 {
+    background-color: gray;
+    margin-left: 3em; }
+
+  div.codesample1:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn1 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 3em; }
+
+  table.gridtable1 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    separator-style: double;
+    separator-width: 1px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable1 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: #a6a6a6;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable1 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable1 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable1 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable1 tbody tr.subhead td {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable1 tbody tr.subhead td p {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  p.indent2 {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 6em; }
+
+  table.gridtable2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    margin-left: 6em; }
+
+  div.codesample2 {
+    background-color: gray;
+    margin-left: 6em; }
+
+  div.codesample2:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn2 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 6em; }
+
+  table.gridtable2 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    separator-style: double;
+    separator-width: 1px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable2 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: #a6a6a6;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable2 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable2 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable2 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable2 tbody tr.subhead td {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable2 tbody tr.subhead td p {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  p.indent3 {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 9em; }
+
+  table.gridtable3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-collapse: collapse;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    margin-left: 9em; }
+
+  div.codesample3 {
+    background-color: gray;
+    margin-left: 9em; }
+
+  div.codesample3:before {
+    color: yellow;
+    content: "Code Sample\a";
+    text-decoration: underline; }
+
+  button.btn3 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 9em; }
+
+  table.gridtable3 td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    separator-style: double;
+    separator-width: 1px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable3 thead tr th {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 1px;
+    padding: 4px 4px 8px 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: #a6a6a6;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable3 tbody tr td p {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable3 tbody tr td {
+    text-align: left;
+    font-weight: normal;
+    line-height: 14pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 12pt;
+    color: black; }
+
+  table.gridtable3 thead tr th p {
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable3 tbody tr.subhead td {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  table.gridtable3 tbody tr.subhead td p {
+    background-color: #862165;
+    text-align: left;
+    font-weight: bold;
+    line-height: 16pt;
+    font-family: "Source Sans Pro,Arial";
+    font-size: 14pt;
+    color: white; }
+
+  div.image {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    page-break-inside: avoid; }
+
+  caption {
+    margin-top: 0.3cm;
+    margin-bottom: 0.3cm; }
+
+  table.noborder {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-collapse: collapse;
+    border-style: none; }
+
+  table.noborder td {
+    display: table-cell;
+    vertical-align: top;
+    border-width: 0px;
+    padding: 4 4 8 8 px;
+    font-size: 10pt;
+    border-style: none;
+    background-color: white;
+    separator-style: none; }
+
+  h1 {
+    font-size: 25pt;
+    font-weight: 600;
+    color: #66CC99; }
+
+  h2 {
+    font-size: 20pt;
+    font-weight: 600;
+    color: #66CC99; }
+
+  h3 {
+    font-size: 16pt;
+    font-weight: 600;
+    color: #66CC99; }
+
+  h4 {
+    font-size: 13pt;
+    font-weight: 600;
+    color: #66CC99; }
+
+  ul {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    margin-left: 0em;
+    padding-left: 3em;
+    list-style: disc;
+    list-style-position: outside; }
+
+  ol {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    margin-left: 0em;
+    padding-left: 3em;
+    list-style-type: decimal;
+    list-style-position: outside; }
+
+  ul ol,
+  ol ol {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 3em;
+    list-style-type: lower-roman;
+    list-style-position: outside; }
+
+  ul ul,
+  ol ul {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 3em;
+    list-style-type: square;
+    list-style-position: outside; }
+
+  ol ol ol,
+  ul ol ol,
+  ul ul ol,
+  ol ul ol {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 3em;
+    list-style-type: lower-alpha;
+    list-style-position: outside; }
+
+  ul ul ul,
+  ol ul ul,
+  ol ol ul,
+  ul ol ul {
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    padding-left: 3em;
+    list-style-type: none;
+    list-style-position: outside; }
+
+  p.note:before {
+    color: #66CC99;
+    mc-next-tag: p;
+    content: "Note:"; }
+
+  p.warning:before {
+    color: #ff0000;
+    mc-next-tag: p;
+    content: "Warning:"; }
+
+  p.tip:before {
+    color: orange;
+    mc-next-tag: p;
+    content: "Tip:"; }
+
+  div.tip:before {
+    color: orange;
+    mc-next-tag: p;
+    content: "Tip:"; }
+
+  div.note:before {
+    color: #66CC99;
+    mc-next-tag: p;
+    content: "Note:"; }
+
+  div.warning:before {
+    color: #ff0000;
+    mc-next-tag: p;
+    content: "Warning:"; } }
+
+/*# sourceMappingURL=output.css.map */

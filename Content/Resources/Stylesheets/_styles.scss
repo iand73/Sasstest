@@ -1,0 +1,393 @@
+﻿
+
+
+.test
+{
+ color: $emerald80;
+ color: $emerald60;
+ color: $emerald40;
+ color: $emerald20;
+}
+
+
+
+@mixin tableheadingtext
+{
+	text-align: left;
+	font-weight: bold;
+	line-height: ($gridtable-heading-text-size + 2) * $fontunit;
+	font-family: $gridtable-font;
+	font-size: $gridtable-heading-text-size * $fontunit;
+	color: $gridtable-heading-text-color;
+}
+
+@mixin tablesubheadingtext
+{
+	text-align: left;
+	font-weight: bold;
+	line-height: ($gridtable-heading-text-size + 2) * $fontunit;
+	font-family: $gridtable-font;
+	font-size: $gridtable-heading-text-size * $fontunit;
+	color: $gridtable-heading-text-color;
+}
+
+
+@mixin tabletext
+{
+	text-align: left;
+	font-weight: normal;
+	line-height: ($gridtable-text-size + 2) * $fontunit;
+	font-family: $gridtable-font;
+	font-size: $gridtable-text-size * $fontunit;
+	color: $gridtable-text-color;
+}
+
+
+@mixin btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	}
+
+
+div.nopagebreak
+{
+	page-break-inside: avoid;
+}
+
+div.pagebreakbefore
+{
+	page-break-before: always;
+}
+
+
+
+.code
+{
+	unicode-bidi: embed;
+	font-family: $codefont;
+	color: red;
+	white-space: pre;
+	mc-language: none;
+	mc-hyphenate: never;
+}
+
+.parameter
+{
+	background: $parameter-background-color;
+	font-family: $codefont;
+	color: $parameter-text-color;
+	mc-language: none;
+}
+
+.nospell
+{
+	mc-language: none;
+}
+
+
+@mixin basic {
+	text-align: left;
+	margin-left: 0 * $unit;
+	margin-right: 0 * $unit;
+	margin-top: 0 * $unit;
+	margin-bottom: 0 * $unit;
+	letter-spacing: 0 * $unit;
+}
+
+@mixin body {
+	font-family: $body-font;
+	font-weight: normal;
+	
+	font-style: normal;
+	font-size: $body-size * $fontunit;
+	letter-spacing: 0 * $unit;
+	color: $body-color;
+	weight: $body-weight;
+	text-indent: 0 * $unit;
+	line-height: $body-height * $fontunit;
+	text-decoration: none;
+
+}
+
+p.FigureCaption
+{
+	@include basic;
+	font-family: $caption-font;
+	font-weight: bold;
+	font-style: normal;
+	font-size: $caption-size * $fontunit;
+	color: $caption-color;
+	mc-hyphenate: never;
+	text-indent: 0 * $unit;
+	line-height: $caption-height * $fontunit;
+	text-decoration: none;
+}	
+	
+
+.UItext
+{
+ font-family: Arial;
+ font-weight: bold;
+}
+
+p
+{
+	@include basic;
+	@include body;
+	text-indent: 0 * $unit;
+}
+
+@mixin codesample
+{
+ background-color: gray;
+}
+
+
+
+@mixin gridtable
+{
+	margin-top: $gridtable-margin * $unit;
+	margin-bottom: $gridtable-margin * $unit;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: $gridtable-border-width * $pixel;
+	border-left-color: $gridtable-border-color;
+	border-right-style: solid;
+	border-right-width: $gridtable-border-width * $pixel;
+	border-right-color: $gridtable-border-color;
+	border-top-style: solid;
+	border-top-width: $gridtable-border-width * $pixel;
+	border-top-color: $gridtable-border-color;
+	border-bottom-style: solid;
+	border-bottom-width: $gridtable-border-width * $pixel;
+	border-bottom-color: $gridtable-border-color;
+}
+
+
+@for $in from 0 through 3
+{
+
+p.indent#{$in} 
+{
+	@include basic;
+	@include body;
+	text-indent: $indent* $in * $unit;
+}
+
+table.gridtable#{$in} 
+{
+	@include gridtable;
+	margin-left: $in * $indent * $unit;
+}
+
+div.codesample#{$in} 
+{
+	@include codesample;
+	margin-left: $in * $indent * $unit;
+}
+
+div.codesample#{$in}:before {
+color: yellow;
+  content: "Code Sample\a";
+  text-decoration: underline;
+}
+
+button.btn#{$in}
+{
+@include btn;
+	margin-left: $in * $indent * $unit;
+}
+		
+//error
+	
+table.gridtable#{$in}  td
+{
+	display: table-cell;
+	vertical-align: top;
+	border-width: $gridtable-border-width * $pixel;
+	padding: 4 * $pixel 4 * $pixel 8 * $pixel  8 * $pixel;
+	border-style: solid;
+	border-color: $gridtable-border-color;
+	background-color: $gridtable-background-color;
+	separator-style: double;
+	separator-width: $gridtable-border-width * $pixel;
+	@include tabletext;
+}
+
+table.gridtable#{$in} thead tr th
+{
+	display: table-cell;
+	vertical-align: top;
+	border-width: $gridtable-border-width * $pixel;
+	padding: 4 * $pixel 4 * $pixel 8 * $pixel  8 * $pixel;
+	border-style: solid;
+	border-color: $gridtable-border-color;
+	background-color: $gridtable-heading-background-color;
+	@include tableheadingtext;
+	
+
+}
+
+table.gridtable#{$in} tbody tr td p
+{
+ 	@include tabletext;
+}
+
+table.gridtable#{$in} tbody tr td
+{
+ 	@include tabletext;
+}
+
+
+table.gridtable#{$in} thead tr th p
+{
+ 	@include tableheadingtext;
+}
+
+table.gridtable#{$in} tbody tr.subhead td
+{
+	background-color: $gridtable-subheading-background-color;
+	@include tablesubheadingtext;
+}
+
+table.gridtable#{$in} tbody tr.subhead td p
+{
+	background-color: $gridtable-subheading-background-color;
+	@include tablesubheadingtext;
+}
+
+}
+
+div.image {
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	page-break-inside: avoid;
+}
+
+caption {
+	margin-top: 0.3cm;
+	margin-bottom: 0.3cm;
+}
+
+table.noborder
+{
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	border-collapse: collapse;
+	border-style: none;
+}
+
+table.noborder td
+{
+	display: table-cell;
+	vertical-align: top;
+	border-width: 0px;
+	padding: 4 4 8 8 px;
+	font-size: 10pt;
+	border-style: none;
+	background-color: white;
+	separator-style: none;
+}
+	
+//error	
+
+
+// Make Heading Styles
+
+@for $i from 1 through 4 {
+ h#{$i} {
+    font-size: round($heading-font-size * pow(0.8,$i - 1)) * $fontunit;
+		font-weight: $heading-font-weight;
+	 @if $type == web {
+    color: $heading-font-color;
+  }
+   @else {
+	mc-auto-number-format: 'CH:{chapnum}.' + concatmultiple($i - 1,'{n}.') + '{n+}.';
+    color: black;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0 * $unit;
+	mc-auto-number-class: Bullet2
+  }
+	}
+	
+	
+	
+	}
+	
+ul
+{
+	@include body;
+	margin-left: 0 * $unit;
+	padding-left: $indent * $unit;
+	list-style: disc;
+	list-style-position: outside;
+}
+
+
+ol
+{
+	@include body;
+	margin-left: 0 * $unit;
+	padding-left: $indent * $unit;
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+
+ul ol,
+ol ol
+{
+	@include body;
+	padding-left: $indent * $unit;
+	list-style-type: lower-roman;
+	list-style-position: outside;
+}
+
+
+ul ul,
+ol ul
+{
+	@include body;
+	padding-left: $indent * $unit;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+ol ol ol,
+ul ol ol,
+ul ul ol,
+ol ul ol
+{
+	@include body;
+	padding-left: $indent * $unit;
+	list-style-type: lower-alpha;
+	list-style-position: outside;
+}
+
+ul ul ul,
+ol ul ul,
+ol ol ul,
+ul ol ul
+{
+	@include body;
+	padding-left: $indent * $unit;
+	list-style-type: none;
+	list-style-position: outside;
+}	
+	
