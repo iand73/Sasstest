@@ -3,7 +3,7 @@
   Version="1">
   <TocEntry
     Title="Heading 1 - Topic Title"
-    Link="/Content/NewFolder/Topic renamed.htm"></TocEntry>
+    Link="/Content/Topic renamed.htm"></TocEntry>
   <TocEntry
     Title="Heading 1 - Topic Title"
     Link="/Content/Topic1.htm" />
