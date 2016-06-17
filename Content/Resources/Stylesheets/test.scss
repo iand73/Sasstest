@@ -52,7 +52,7 @@ $gold80: #ffeb33;
   @return $string;
 }
 
-@mixin callout($text, $color)	
+@mixin callout($text, $color, $in)	
 {
 	border-top: 1 * $pixel solid black;
 	color: $color;
@@ -60,6 +60,7 @@ $gold80: #ffeb33;
 	mc-next-tag: p;
 	border-bottom: 1 * $pixel solid black;
 	line-height: ($body-height+5) * $fontunit;
+	margin-left: $in * $indent * $unit;
 }
 
 @mixin webcalloutbefore($text, $color)	
@@ -69,9 +70,9 @@ $gold80: #ffeb33;
 	content: $text;
 }
 
-@mixin webcallout	
+@mixin webcallout($in)	
 {
-
+ margin-left: $in * $indent * $unit;
 }
 
 
@@ -85,13 +86,14 @@ $type: print;
 {
 @import  'styles.scss';
 
-p.note  { @include callout('Note: ',$emerald); }
-p.warning  { @include callout('Warning: ',#ff0000); }
-p.tip { @include callout('Tip: ',orange); }
-div.tip { @include callout('Tip: ',orange); }
-div.note  { @include callout('Note: ',$emerald); }
-div.warning  { @include callout('Warning: ',#ff0000); }
-
+@for $in from 0 through 2 {
+p.note#{nth($levels, $in+1) }   { @include callout('Note: ',$emerald,$in); }
+p.warning#{nth($levels, $in+1) }   { @include callout('Warning: ',#ff0000,$in); }
+p.tip#{nth($levels, $in+1) }  { @include callout('Tip: ',orange,$in); }
+div.tip#{nth($levels, $in+1) }  { @include callout('Tip: ',orange,$in); }
+div.note#{nth($levels, $in+1) }   { @include callout('Note: ',$emerald,$in); }
+div.warning#{nth($levels, $in+1) }   { @include callout('Warning: ',#ff0000,$in); }
+}
 }
 
 @import '_webvariables.scss';
@@ -102,20 +104,22 @@ $type: web;
 @media screen
 {
 @import  '_styles.scss';
+@import 'prism';
 
-p.note:before  { @include webcalloutbefore('Note:',$emerald); }
-p.warning:before  { @include webcalloutbefore('Warning:',#ff0000); }
-p.tip:before   { @include webcalloutbefore('Tip:',orange); }
-div.tip:before   { @include webcalloutbefore('Tip:',orange); }
-div.note:before   { @include webcalloutbefore('Note:',$emerald); }
-div.warning:before  { @include webcalloutbefore('Warning:',#ff0000); }
+@for $in from 0 through 2 {
+p.note#{nth($levels, $in+1) }:before  { @include webcalloutbefore('Note:',$emerald); }
+p.warning#{nth($levels, $in+1) }:before  { @include webcalloutbefore('Warning:',#ff0000); }
+p.tip#{nth($levels, $in+1) }:before   { @include webcalloutbefore('Tip:',orange); }
+div.tip#{nth($levels, $in+1) }:before   { @include webcalloutbefore('Tip:',orange); }
+div.note#{nth($levels, $in+1) }:before  { @include webcalloutbefore('Note:',$emerald); }
+div.warning#{nth($levels, $in+1) }:before  { @include webcalloutbefore('Warning:',#ff0000); }
 
-p.note:before  { @include webcallout; }
-p.warning:before  { @include webcallout; }
-p.tip:before   { @include webcallout; }
-div.tip:before   { @include webcallout; }
-div.note:before   { @include webcallout; }
-div.warning:before  { @include webcallout; }
-
+p.note#{nth($levels, $in+1) } { @include webcallout($in); }
+p.warning#{nth($levels, $in+1) }  { @include webcallout($in); }
+p.tip#{nth($levels, $in+1) }  { @include webcallout($in); }
+div.tip#{nth($levels, $in+1) }   { @include webcallout($in); }
+div.note#{nth($levels, $in+1) }   { @include webcallout($in); }
+div.warning#{nth($levels, $in+1) }  { @include webcallout($in); }
+}
 
 }

@@ -1,5 +1,4 @@
-﻿
-
+﻿$levels: '' 1 2 3;
 
 .test
 {
@@ -181,7 +180,7 @@ p
 }
 
 
-@for $in from 0 through 3
+@for $in from 1 through 2
 {
 
 p.indent#{$in} 
@@ -190,26 +189,28 @@ p.indent#{$in}
 	@include body;
 	text-indent: $indent* $in * $unit;
 }
+}
 
-table.gridtable#{$in} 
+@for $in from 0 through 2 {
+table.gridtable#{nth($levels, $in+1) } 
 {
 	@include gridtable;
 	margin-left: $in * $indent * $unit;
 }
 
-div.codesample#{$in} 
+div.codesample#{nth($levels, $in+1) } 
 {
 	@include codesample;
 	margin-left: $in * $indent * $unit;
 }
 
-div.codesample#{$in}:before {
+div.codesample#{nth($levels, $in+1) }:before {
 color: yellow;
   content: "Code Sample\a";
   text-decoration: underline;
 }
 
-button.btn#{$in}
+button.btn#{nth($levels, $in+1) } 
 {
 @include btn;
 	margin-left: $in * $indent * $unit;
@@ -217,7 +218,7 @@ button.btn#{$in}
 		
 //error
 	
-table.gridtable#{$in}  td
+table.gridtable#{nth($levels, $in+1) }   td
 {
 	display: table-cell;
 	vertical-align: top;
@@ -231,7 +232,7 @@ table.gridtable#{$in}  td
 	@include tabletext;
 }
 
-table.gridtable#{$in} thead tr th
+table.gridtable#{nth($levels, $in+1) } thead tr th
 {
 	display: table-cell;
 	vertical-align: top;
@@ -245,29 +246,29 @@ table.gridtable#{$in} thead tr th
 
 }
 
-table.gridtable#{$in} tbody tr td p
+table.gridtable#{nth($levels, $in+1) } tbody tr td p
 {
  	@include tabletext;
 }
 
-table.gridtable#{$in} tbody tr td
+table.gridtable#{nth($levels, $in+1) } tbody tr td
 {
  	@include tabletext;
 }
 
 
-table.gridtable#{$in} thead tr th p
+table.gridtable#{nth($levels, $in+1) } thead tr th p
 {
  	@include tableheadingtext;
 }
 
-table.gridtable#{$in} tbody tr.subhead td
+table.gridtable#{nth($levels, $in+1) } tbody tr.subhead td
 {
 	background-color: $gridtable-subheading-background-color;
 	@include tablesubheadingtext;
 }
 
-table.gridtable#{$in} tbody tr.subhead td p
+table.gridtable#{nth($levels, $in+1) } tbody tr.subhead td p
 {
 	background-color: $gridtable-subheading-background-color;
 	@include tablesubheadingtext;
@@ -355,7 +356,7 @@ ol ol
 {
 	@include body;
 	padding-left: $indent * $unit;
-	list-style-type: lower-roman;
+	list-style-type: lower-alpha;
 	list-style-position: outside;
 }
 
@@ -376,7 +377,7 @@ ol ul ol
 {
 	@include body;
 	padding-left: $indent * $unit;
-	list-style-type: lower-alpha;
+	list-style-type: lower-roman;
 	list-style-position: outside;
 }
 
@@ -387,7 +388,7 @@ ul ol ul
 {
 	@include body;
 	padding-left: $indent * $unit;
-	list-style-type: none;
+	list-style-type: circle;
 	list-style-position: outside;
 }	
 	
