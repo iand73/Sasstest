@@ -9,7 +9,7 @@
   MasterToc="/Project/TOCs/Master.fltoc"
   Skin="(none)"
   TargetLanguage="en-gb,fr_../../SassTest - French/SassTest.flprj"
-  MasterPage="/Content/Resources/DefaultMasterPage.flmsp">
+  MasterPage="/Content/Resources/MasterPages/DefaultMasterPage.flmsp">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

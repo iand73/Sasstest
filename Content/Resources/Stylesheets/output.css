@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* PRINT STYLESHEET  */
 @media print {
   .test {
@@ -69,7 +70,7 @@
     text-decoration: none;
     text-indent: 0cm; }
 
-  p.indent0 {
+  p.indent1 {
     text-align: left;
     margin-left: 0cm;
     margin-right: 0cm;
@@ -86,9 +87,28 @@
     text-indent: 0cm;
     line-height: 14pt;
     text-decoration: none;
-    text-indent: 0cm; }
+    text-indent: 1cm; }
 
-  table.gridtable0 {
+  p.indent2 {
+    text-align: left;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    letter-spacing: 0cm;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0cm;
+    color: black;
+    weight: light;
+    text-indent: 0cm;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 2cm; }
+
+  table.gridtable {
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
     border-collapse: collapse;
@@ -106,16 +126,16 @@
     border-bottom-color: black;
     margin-left: 0cm; }
 
-  div.codesample0 {
+  div.codesample {
     background-color: gray;
     margin-left: 0cm; }
 
-  div.codesample0:before {
+  div.codesample:before {
     color: yellow;
     content: "Code Sample\a";
     text-decoration: underline; }
 
-  button.btn0 {
+  button.btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -137,7 +157,7 @@
     border-radius: 4px;
     margin-left: 0cm; }
 
-  table.gridtable0 td {
+  table.gridtable td {
     display: table-cell;
     vertical-align: top;
     border-width: 3px;
@@ -154,7 +174,7 @@
     font-size: 10pt;
     color: magenta; }
 
-  table.gridtable0 thead tr th {
+  table.gridtable thead tr th {
     display: table-cell;
     vertical-align: top;
     border-width: 3px;
@@ -169,7 +189,7 @@
     font-size: 12pt;
     color: green; }
 
-  table.gridtable0 tbody tr td p {
+  table.gridtable tbody tr td p {
     text-align: left;
     font-weight: normal;
     line-height: 12pt;
@@ -177,7 +197,7 @@
     font-size: 10pt;
     color: magenta; }
 
-  table.gridtable0 tbody tr td {
+  table.gridtable tbody tr td {
     text-align: left;
     font-weight: normal;
     line-height: 12pt;
@@ -185,7 +205,7 @@
     font-size: 10pt;
     color: magenta; }
 
-  table.gridtable0 thead tr th p {
+  table.gridtable thead tr th p {
     text-align: left;
     font-weight: bold;
     line-height: 14pt;
@@ -193,7 +213,7 @@
     font-size: 12pt;
     color: green; }
 
-  table.gridtable0 tbody tr.subhead td {
+  table.gridtable tbody tr.subhead td {
     background-color: yellow;
     text-align: left;
     font-weight: bold;
@@ -202,7 +222,7 @@
     font-size: 12pt;
     color: green; }
 
-  table.gridtable0 tbody tr.subhead td p {
+  table.gridtable tbody tr.subhead td p {
     background-color: yellow;
     text-align: left;
     font-weight: bold;
@@ -210,25 +230,6 @@
     font-family: "Helvetica";
     font-size: 12pt;
     color: green; }
-
-  p.indent1 {
-    text-align: left;
-    margin-left: 0cm;
-    margin-right: 0cm;
-    margin-top: 0cm;
-    margin-bottom: 0cm;
-    letter-spacing: 0cm;
-    font-family: "Source Sans Pro,Arial";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12pt;
-    letter-spacing: 0cm;
-    color: black;
-    weight: light;
-    text-indent: 0cm;
-    line-height: 14pt;
-    text-decoration: none;
-    text-indent: 1cm; }
 
   table.gridtable1 {
     margin-top: 0.5cm;
@@ -353,25 +354,6 @@
     font-size: 12pt;
     color: green; }
 
-  p.indent2 {
-    text-align: left;
-    margin-left: 0cm;
-    margin-right: 0cm;
-    margin-top: 0cm;
-    margin-bottom: 0cm;
-    letter-spacing: 0cm;
-    font-family: "Source Sans Pro,Arial";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12pt;
-    letter-spacing: 0cm;
-    color: black;
-    weight: light;
-    text-indent: 0cm;
-    line-height: 14pt;
-    text-decoration: none;
-    text-indent: 2cm; }
-
   table.gridtable2 {
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
@@ -487,148 +469,6 @@
     color: green; }
 
   table.gridtable2 tbody tr.subhead td p {
-    background-color: yellow;
-    text-align: left;
-    font-weight: bold;
-    line-height: 14pt;
-    font-family: "Helvetica";
-    font-size: 12pt;
-    color: green; }
-
-  p.indent3 {
-    text-align: left;
-    margin-left: 0cm;
-    margin-right: 0cm;
-    margin-top: 0cm;
-    margin-bottom: 0cm;
-    letter-spacing: 0cm;
-    font-family: "Source Sans Pro,Arial";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12pt;
-    letter-spacing: 0cm;
-    color: black;
-    weight: light;
-    text-indent: 0cm;
-    line-height: 14pt;
-    text-decoration: none;
-    text-indent: 3cm; }
-
-  table.gridtable3 {
-    margin-top: 0.5cm;
-    margin-bottom: 0.5cm;
-    border-collapse: collapse;
-    border-left-style: solid;
-    border-left-width: 3px;
-    border-left-color: black;
-    border-right-style: solid;
-    border-right-width: 3px;
-    border-right-color: black;
-    border-top-style: solid;
-    border-top-width: 3px;
-    border-top-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: black;
-    margin-left: 3cm; }
-
-  div.codesample3 {
-    background-color: gray;
-    margin-left: 3cm; }
-
-  div.codesample3:before {
-    color: yellow;
-    content: "Code Sample\a";
-    text-decoration: underline; }
-
-  button.btn3 {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    margin-left: 3cm; }
-
-  table.gridtable3 td {
-    display: table-cell;
-    vertical-align: top;
-    border-width: 3px;
-    padding: 4px 4px 8px 8px;
-    border-style: solid;
-    border-color: black;
-    background-color: grey;
-    separator-style: double;
-    separator-width: 3px;
-    text-align: left;
-    font-weight: normal;
-    line-height: 12pt;
-    font-family: "Helvetica";
-    font-size: 10pt;
-    color: magenta; }
-
-  table.gridtable3 thead tr th {
-    display: table-cell;
-    vertical-align: top;
-    border-width: 3px;
-    padding: 4px 4px 8px 8px;
-    border-style: solid;
-    border-color: black;
-    background-color: blue;
-    text-align: left;
-    font-weight: bold;
-    line-height: 14pt;
-    font-family: "Helvetica";
-    font-size: 12pt;
-    color: green; }
-
-  table.gridtable3 tbody tr td p {
-    text-align: left;
-    font-weight: normal;
-    line-height: 12pt;
-    font-family: "Helvetica";
-    font-size: 10pt;
-    color: magenta; }
-
-  table.gridtable3 tbody tr td {
-    text-align: left;
-    font-weight: normal;
-    line-height: 12pt;
-    font-family: "Helvetica";
-    font-size: 10pt;
-    color: magenta; }
-
-  table.gridtable3 thead tr th p {
-    text-align: left;
-    font-weight: bold;
-    line-height: 14pt;
-    font-family: "Helvetica";
-    font-size: 12pt;
-    color: green; }
-
-  table.gridtable3 tbody tr.subhead td {
-    background-color: yellow;
-    text-align: left;
-    font-weight: bold;
-    line-height: 14pt;
-    font-family: "Helvetica";
-    font-size: 12pt;
-    color: green; }
-
-  table.gridtable3 tbody tr.subhead td p {
     background-color: yellow;
     text-align: left;
     font-weight: bold;
@@ -743,7 +583,7 @@
     line-height: 14pt;
     text-decoration: none;
     padding-left: 1cm;
-    list-style-type: lower-roman;
+    list-style-type: lower-alpha;
     list-style-position: outside; }
 
   ul ul,
@@ -777,7 +617,7 @@
     line-height: 14pt;
     text-decoration: none;
     padding-left: 1cm;
-    list-style-type: lower-alpha;
+    list-style-type: lower-roman;
     list-style-position: outside; }
 
   ul ul ul,
@@ -795,7 +635,7 @@
     line-height: 14pt;
     text-decoration: none;
     padding-left: 1cm;
-    list-style-type: none;
+    list-style-type: circle;
     list-style-position: outside; }
 
   p.note {
@@ -804,7 +644,8 @@
     mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
     mc-next-tag: p;
     border-bottom: 1px solid black;
-    line-height: 19pt; }
+    line-height: 19pt;
+    margin-left: 0cm; }
 
   p.warning {
     border-top: 1px solid black;
@@ -812,7 +653,8 @@
     mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
     mc-next-tag: p;
     border-bottom: 1px solid black;
-    line-height: 19pt; }
+    line-height: 19pt;
+    margin-left: 0cm; }
 
   p.tip {
     border-top: 1px solid black;
@@ -820,7 +662,8 @@
     mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
     mc-next-tag: p;
     border-bottom: 1px solid black;
-    line-height: 19pt; }
+    line-height: 19pt;
+    margin-left: 0cm; }
 
   div.tip {
     border-top: 1px solid black;
@@ -828,7 +671,8 @@
     mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
     mc-next-tag: p;
     border-bottom: 1px solid black;
-    line-height: 19pt; }
+    line-height: 19pt;
+    margin-left: 0cm; }
 
   div.note {
     border-top: 1px solid black;
@@ -836,7 +680,8 @@
     mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
     mc-next-tag: p;
     border-bottom: 1px solid black;
-    line-height: 19pt; }
+    line-height: 19pt;
+    margin-left: 0cm; }
 
   div.warning {
     border-top: 1px solid black;
@@ -844,7 +689,116 @@
     mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
     mc-next-tag: p;
     border-bottom: 1px solid black;
-    line-height: 19pt; } }
+    line-height: 19pt;
+    margin-left: 0cm; }
+
+  p.note1 {
+    border-top: 1px solid black;
+    color: #66CC99;
+    mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 1cm; }
+
+  p.warning1 {
+    border-top: 1px solid black;
+    color: #ff0000;
+    mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 1cm; }
+
+  p.tip1 {
+    border-top: 1px solid black;
+    color: orange;
+    mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 1cm; }
+
+  div.tip1 {
+    border-top: 1px solid black;
+    color: orange;
+    mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 1cm; }
+
+  div.note1 {
+    border-top: 1px solid black;
+    color: #66CC99;
+    mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 1cm; }
+
+  div.warning1 {
+    border-top: 1px solid black;
+    color: #ff0000;
+    mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 1cm; }
+
+  p.note2 {
+    border-top: 1px solid black;
+    color: #66CC99;
+    mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 2cm; }
+
+  p.warning2 {
+    border-top: 1px solid black;
+    color: #ff0000;
+    mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 2cm; }
+
+  p.tip2 {
+    border-top: 1px solid black;
+    color: orange;
+    mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 2cm; }
+
+  div.tip2 {
+    border-top: 1px solid black;
+    color: orange;
+    mc-auto-number-format: "{color orange}{b}Tip:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 2cm; }
+
+  div.note2 {
+    border-top: 1px solid black;
+    color: #66CC99;
+    mc-auto-number-format: "{color #66CC99}{b}Note:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 2cm; }
+
+  div.warning2 {
+    border-top: 1px solid black;
+    color: #ff0000;
+    mc-auto-number-format: "{color #ff0000}{b}Warning:  {/b}";
+    mc-next-tag: p;
+    border-bottom: 1px solid black;
+    line-height: 19pt;
+    margin-left: 2cm; } }
 /* WEB STYLESHEET  */
 @media screen {
   .test {
@@ -916,7 +870,7 @@
     text-decoration: none;
     text-indent: 0em; }
 
-  p.indent0 {
+  p.indent1 {
     text-align: left;
     margin-left: 0em;
     margin-right: 0em;
@@ -933,9 +887,28 @@
     text-indent: 0em;
     line-height: 14pt;
     text-decoration: none;
-    text-indent: 0em; }
+    text-indent: 3em; }
 
-  table.gridtable0 {
+  p.indent2 {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    letter-spacing: 0em;
+    font-family: "Source Sans Pro,Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+    letter-spacing: 0em;
+    color: #000000;
+    weight: light;
+    text-indent: 0em;
+    line-height: 14pt;
+    text-decoration: none;
+    text-indent: 6em; }
+
+  table.gridtable {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     border-collapse: collapse;
@@ -953,16 +926,16 @@
     border-bottom-color: black;
     margin-left: 0em; }
 
-  div.codesample0 {
+  div.codesample {
     background-color: gray;
     margin-left: 0em; }
 
-  div.codesample0:before {
+  div.codesample:before {
     color: yellow;
     content: "Code Sample\a";
     text-decoration: underline; }
 
-  button.btn0 {
+  button.btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -984,7 +957,7 @@
     border-radius: 4px;
     margin-left: 0em; }
 
-  table.gridtable0 td {
+  table.gridtable td {
     display: table-cell;
     vertical-align: top;
     border-width: 1px;
@@ -1001,7 +974,7 @@
     font-size: 12pt;
     color: black; }
 
-  table.gridtable0 thead tr th {
+  table.gridtable thead tr th {
     display: table-cell;
     vertical-align: top;
     border-width: 1px;
@@ -1016,7 +989,7 @@
     font-size: 14pt;
     color: white; }
 
-  table.gridtable0 tbody tr td p {
+  table.gridtable tbody tr td p {
     text-align: left;
     font-weight: normal;
     line-height: 14pt;
@@ -1024,7 +997,7 @@
     font-size: 12pt;
     color: black; }
 
-  table.gridtable0 tbody tr td {
+  table.gridtable tbody tr td {
     text-align: left;
     font-weight: normal;
     line-height: 14pt;
@@ -1032,7 +1005,7 @@
     font-size: 12pt;
     color: black; }
 
-  table.gridtable0 thead tr th p {
+  table.gridtable thead tr th p {
     text-align: left;
     font-weight: bold;
     line-height: 16pt;
@@ -1040,7 +1013,7 @@
     font-size: 14pt;
     color: white; }
 
-  table.gridtable0 tbody tr.subhead td {
+  table.gridtable tbody tr.subhead td {
     background-color: #862165;
     text-align: left;
     font-weight: bold;
@@ -1049,7 +1022,7 @@
     font-size: 14pt;
     color: white; }
 
-  table.gridtable0 tbody tr.subhead td p {
+  table.gridtable tbody tr.subhead td p {
     background-color: #862165;
     text-align: left;
     font-weight: bold;
@@ -1057,25 +1030,6 @@
     font-family: "Source Sans Pro,Arial";
     font-size: 14pt;
     color: white; }
-
-  p.indent1 {
-    text-align: left;
-    margin-left: 0em;
-    margin-right: 0em;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    letter-spacing: 0em;
-    font-family: "Source Sans Pro,Arial";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12pt;
-    letter-spacing: 0em;
-    color: #000000;
-    weight: light;
-    text-indent: 0em;
-    line-height: 14pt;
-    text-decoration: none;
-    text-indent: 3em; }
 
   table.gridtable1 {
     margin-top: 0.5em;
@@ -1200,25 +1154,6 @@
     font-size: 14pt;
     color: white; }
 
-  p.indent2 {
-    text-align: left;
-    margin-left: 0em;
-    margin-right: 0em;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    letter-spacing: 0em;
-    font-family: "Source Sans Pro,Arial";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12pt;
-    letter-spacing: 0em;
-    color: #000000;
-    weight: light;
-    text-indent: 0em;
-    line-height: 14pt;
-    text-decoration: none;
-    text-indent: 6em; }
-
   table.gridtable2 {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -1342,148 +1277,6 @@
     font-size: 14pt;
     color: white; }
 
-  p.indent3 {
-    text-align: left;
-    margin-left: 0em;
-    margin-right: 0em;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    letter-spacing: 0em;
-    font-family: "Source Sans Pro,Arial";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12pt;
-    letter-spacing: 0em;
-    color: #000000;
-    weight: light;
-    text-indent: 0em;
-    line-height: 14pt;
-    text-decoration: none;
-    text-indent: 9em; }
-
-  table.gridtable3 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    border-collapse: collapse;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-left-color: black;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: black;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: black;
-    margin-left: 9em; }
-
-  div.codesample3 {
-    background-color: gray;
-    margin-left: 9em; }
-
-  div.codesample3:before {
-    color: yellow;
-    content: "Code Sample\a";
-    text-decoration: underline; }
-
-  button.btn3 {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    margin-left: 9em; }
-
-  table.gridtable3 td {
-    display: table-cell;
-    vertical-align: top;
-    border-width: 1px;
-    padding: 4px 4px 8px 8px;
-    border-style: solid;
-    border-color: black;
-    background-color: white;
-    separator-style: double;
-    separator-width: 1px;
-    text-align: left;
-    font-weight: normal;
-    line-height: 14pt;
-    font-family: "Source Sans Pro,Arial";
-    font-size: 12pt;
-    color: black; }
-
-  table.gridtable3 thead tr th {
-    display: table-cell;
-    vertical-align: top;
-    border-width: 1px;
-    padding: 4px 4px 8px 8px;
-    border-style: solid;
-    border-color: black;
-    background-color: #a6a6a6;
-    text-align: left;
-    font-weight: bold;
-    line-height: 16pt;
-    font-family: "Source Sans Pro,Arial";
-    font-size: 14pt;
-    color: white; }
-
-  table.gridtable3 tbody tr td p {
-    text-align: left;
-    font-weight: normal;
-    line-height: 14pt;
-    font-family: "Source Sans Pro,Arial";
-    font-size: 12pt;
-    color: black; }
-
-  table.gridtable3 tbody tr td {
-    text-align: left;
-    font-weight: normal;
-    line-height: 14pt;
-    font-family: "Source Sans Pro,Arial";
-    font-size: 12pt;
-    color: black; }
-
-  table.gridtable3 thead tr th p {
-    text-align: left;
-    font-weight: bold;
-    line-height: 16pt;
-    font-family: "Source Sans Pro,Arial";
-    font-size: 14pt;
-    color: white; }
-
-  table.gridtable3 tbody tr.subhead td {
-    background-color: #862165;
-    text-align: left;
-    font-weight: bold;
-    line-height: 16pt;
-    font-family: "Source Sans Pro,Arial";
-    font-size: 14pt;
-    color: white; }
-
-  table.gridtable3 tbody tr.subhead td p {
-    background-color: #862165;
-    text-align: left;
-    font-weight: bold;
-    line-height: 16pt;
-    font-family: "Source Sans Pro,Arial";
-    font-size: 14pt;
-    color: white; }
-
   div.image {
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
@@ -1574,7 +1367,7 @@
     line-height: 14pt;
     text-decoration: none;
     padding-left: 3em;
-    list-style-type: lower-roman;
+    list-style-type: lower-alpha;
     list-style-position: outside; }
 
   ul ul,
@@ -1608,7 +1401,7 @@
     line-height: 14pt;
     text-decoration: none;
     padding-left: 3em;
-    list-style-type: lower-alpha;
+    list-style-type: lower-roman;
     list-style-position: outside; }
 
   ul ul ul,
@@ -1626,8 +1419,195 @@
     line-height: 14pt;
     text-decoration: none;
     padding-left: 3em;
-    list-style-type: none;
+    list-style-type: circle;
     list-style-position: outside; }
+
+  /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+c+csharp+http+java+ruby&plugins=line-highlight+line-numbers+file-highlight+highlight-keywords */
+  /**
+   * prism.js default theme for JavaScript, CSS and HTML
+   * Based on dabblet (http://dabblet.com)
+   * @author Lea Verou
+   */
+  code[class*="language-"],
+  pre[class*="language-"] {
+    color: black;
+    text-shadow: 0 1px white;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none; }
+
+  pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+  code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+    text-shadow: none;
+    background: #b3d4fc; }
+
+  pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+  code[class*="language-"]::selection, code[class*="language-"] ::selection {
+    text-shadow: none;
+    background: #b3d4fc; }
+
+  /* Code blocks */
+  pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto; }
+
+  :not(pre) > code[class*="language-"],
+  pre[class*="language-"] {
+    background: #f5f2f0; }
+
+  /* Inline code */
+  :not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em; }
+
+  .token.comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata {
+    color: slategray; }
+
+  .token.punctuation {
+    color: #999; }
+
+  .namespace {
+    opacity: .7; }
+
+  .token.property,
+  .token.tag,
+  .token.boolean,
+  .token.number,
+  .token.constant,
+  .token.symbol,
+  .token.deleted {
+    color: #905; }
+
+  .token.selector,
+  .token.attr-name,
+  .token.string,
+  .token.char,
+  .token.builtin,
+  .token.inserted {
+    color: #690; }
+
+  .token.operator,
+  .token.entity,
+  .token.url,
+  .language-css .token.string,
+  .style .token.string {
+    color: #a67f59;
+    background: rgba(255, 255, 255, 0.5); }
+
+  .token.atrule,
+  .token.attr-value,
+  .token.keyword {
+    color: #07a; }
+
+  .token.function {
+    color: #DD4A68; }
+
+  .token.regex,
+  .token.important,
+  .token.variable {
+    color: #e90; }
+
+  .token.important,
+  .token.bold {
+    font-weight: bold; }
+
+  .token.italic {
+    font-style: italic; }
+
+  .token.entity {
+    cursor: help; }
+
+  pre[data-line] {
+    position: relative;
+    padding: 1em 0 1em 3em; }
+
+  .line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    /* Same as .prismÔÇÖs padding-top */
+    background: rgba(153, 122, 102, 0.08);
+    background: -moz-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+    background: -webkit-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+    background: -o-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+    background: linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre; }
+
+  .line-highlight:before,
+  .line-highlight[data-end]:after {
+    content: attr(data-start);
+    position: absolute;
+    top: .4em;
+    left: .6em;
+    min-width: 1em;
+    padding: 0 .5em;
+    background-color: rgba(153, 122, 102, 0.4);
+    color: #f5f2f0;
+    font: bold 65%/1.5 sans-serif;
+    text-align: center;
+    vertical-align: .3em;
+    border-radius: 999px;
+    text-shadow: none;
+    box-shadow: 0 1px white; }
+
+  .line-highlight[data-end]:after {
+    content: attr(data-end);
+    top: auto;
+    bottom: .4em; }
+
+  pre.line-numbers {
+    position: relative;
+    padding-left: 3.8em;
+    counter-reset: linenumber; }
+
+  pre.line-numbers > code {
+    position: relative; }
+
+  .line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-size: 100%;
+    left: -3.8em;
+    width: 3em;
+    /* works for line-numbers below 1000 lines */
+    letter-spacing: -1px;
+    border-right: 1px solid #999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+  .line-numbers-rows > span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber; }
+
+  .line-numbers-rows > span:before {
+    content: counter(linenumber);
+    color: #999;
+    display: block;
+    padding-right: 0.8em;
+    text-align: right; }
 
   p.note:before {
     color: #66CC99;
@@ -1657,6 +1637,120 @@
   div.warning:before {
     color: #ff0000;
     mc-next-tag: p;
-    content: "Warning:"; } }
+    content: "Warning:"; }
+
+  p.note {
+    margin-left: 0em; }
+
+  p.warning {
+    margin-left: 0em; }
+
+  p.tip {
+    margin-left: 0em; }
+
+  div.tip {
+    margin-left: 0em; }
+
+  div.note {
+    margin-left: 0em; }
+
+  div.warning {
+    margin-left: 0em; }
+
+  p.note1:before {
+    color: #66CC99;
+    mc-next-tag: p;
+    content: "Note:"; }
+
+  p.warning1:before {
+    color: #ff0000;
+    mc-next-tag: p;
+    content: "Warning:"; }
+
+  p.tip1:before {
+    color: orange;
+    mc-next-tag: p;
+    content: "Tip:"; }
+
+  div.tip1:before {
+    color: orange;
+    mc-next-tag: p;
+    content: "Tip:"; }
+
+  div.note1:before {
+    color: #66CC99;
+    mc-next-tag: p;
+    content: "Note:"; }
+
+  div.warning1:before {
+    color: #ff0000;
+    mc-next-tag: p;
+    content: "Warning:"; }
+
+  p.note1 {
+    margin-left: 3em; }
+
+  p.warning1 {
+    margin-left: 3em; }
+
+  p.tip1 {
+    margin-left: 3em; }
+
+  div.tip1 {
+    margin-left: 3em; }
+
+  div.note1 {
+    margin-left: 3em; }
+
+  div.warning1 {
+    margin-left: 3em; }
+
+  p.note2:before {
+    color: #66CC99;
+    mc-next-tag: p;
+    content: "Note:"; }
+
+  p.warning2:before {
+    color: #ff0000;
+    mc-next-tag: p;
+    content: "Warning:"; }
+
+  p.tip2:before {
+    color: orange;
+    mc-next-tag: p;
+    content: "Tip:"; }
+
+  div.tip2:before {
+    color: orange;
+    mc-next-tag: p;
+    content: "Tip:"; }
+
+  div.note2:before {
+    color: #66CC99;
+    mc-next-tag: p;
+    content: "Note:"; }
+
+  div.warning2:before {
+    color: #ff0000;
+    mc-next-tag: p;
+    content: "Warning:"; }
+
+  p.note2 {
+    margin-left: 6em; }
+
+  p.warning2 {
+    margin-left: 6em; }
+
+  p.tip2 {
+    margin-left: 6em; }
+
+  div.tip2 {
+    margin-left: 6em; }
+
+  div.note2 {
+    margin-left: 6em; }
+
+  div.warning2 {
+    margin-left: 6em; } }
 
 /*# sourceMappingURL=output.css.map */
