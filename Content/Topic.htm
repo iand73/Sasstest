@@ -1,260 +1,267 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="7220" MadCap:lastWidth="1346">
-    <head><title>This is a topic title field that can be modified in Flare</title>
-        <link href="Resources/Stylesheets/output.css" rel="stylesheet" type="text/css" />
-        <meta name="description" content="This is a topic description field that can be modified in Flare" />
-    </head>
-    <body>
-        <h1>Heading 1 - Topic Title</h1>
-        <p>This is a standard paragraph adsad asdsa d ds asd as asd a sas s a a sa da sdsdsadasdsadsda a ssa dsd as asds dsad as das dasdsadsadasdasdsadadsas dsadasdsasadsasa asd assadsa dsa sasadda adadsadsadasdasdsads a asdasdsadasd asdsad adas ad adsa dsad s a.</p>
-        <p>&#160;</p>
-        <p class="indent1">This is a level 1 indented paragraph. Not sure whether this will be required.</p>
-        <p class="indent2">This is a level 2 indented paragraph. Indent levels are needed so that we can align paragraph text with list content (if required). Not sure whether this style will be required.</p>
-        <p>Type <span class="code">cd .. this .code style is used for inline code or command line examples </span>. Let's try a parameter - <span class="parameter">status_url</span>. Note that parameters will have <b>html</b> content tooltips which provide more information in Stage 2.</p>
-        <p>&#160;</p>
-        <p>The following line shows a single inline code sample. These code samples could be used when only showing a couple of lines of code to avoid the overhead of importing a code file using the following markup &lt;pre&gt;&lt;code class="language-markup"&gt; adasd adssad ads dsa&lt;/code&gt;&lt;/pre&gt;. Prism.js would supply the syntax highlighting: </p><pre><code class="language-markup">&lt;input type="hidden" name="payment_methods" value="WLT,ACC"&gt;</code></pre>
-        <p>&#160;</p>
-        <p>The following example shows a noborder table style used to display a selection of logos:</p>
-        <table class="noborder">
-            <col />
-            <col />
-            <col />
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="Resources/Images/skrill-powered-giropay.jpg" />
-                    </td>
-                    <td>
-                        <img src="Resources/Images/skrill-powered-ideal.jpg" />
-                    </td>
-                    <td>
-                        <img src="Resources/Images/skrill-powered-sofort.jpg" />
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p>The following is a code sample (these will be picked up and replaced by the Typo3 importer from a subdirectory of the resources/Codesamples directory the prism class line-numbers will add line numbers to each line:</p>
-        <p>&#160;</p>
-        <div class="codesample">{{loadgateway}}</div>
-        <p>&#160;</p>
-        <p>and another:</p>
-        <p>&#160;</p>
-        <div class="codesample">{{jsonexample}}</div>
-        <p>&#160;</p>
-        <p>and some broken examples:</p>
-        <p>&#160;</p>
-        <div class="codesample">{{misspelled}}</div>
-        <p>&#160;</p>
-        <div class="codesample">{{misspellt}}</div>
-        <p>&#160;</p>
-        <p>Example of an local hyperlink to another topic - <a href="Topic1.htm">this is a link</a></p>
-        <p>This a link to <a href="#Heading">a Heading in this topic</a></p>
-        <p>Link to heading in another topic: <MadCap:xref href="Topic1.htm#Heading2">Heading 4</MadCap:xref></p>
-        <p>This is a link to an external website <a href="http://www.bbc.co.uk/">Link to external website - in this case the BBC</a></p>
-        <p>&#160;</p>
-        <p>The following links demonstrate a different type of table style required for more complex table styles where different tables columns and rows can have different styles (rather than just the heading and body rows)</p>
-        <ul>
-            <li><a href="Appendices/Countries/ISO countries supported.htm">ISO countries supported</a>
-            </li>
-            <li><a href="Appendices/Currencies/ISO currencies supported.htm">ISO currencies supported</a>
-            </li>
-        </ul>
-        <p>&#160;</p>
-        <p>3 levels of ordered lists:</p>
-        <ol>
-            <li>test</li>
-            <li>
-                <p>dgfdfg</p>
-                <p>sadsaddsa</p>
-            </li>
-            <li>Save the file as follows:<ol><li>Open the file</li><li>delete the file as follows:<ol><li>Click <b>save</b> - Note that <i>italics</i> can also be used.</li><li>fdsfdsfsf</li></ol></li><li>dggfd</li><li><p>List item containing a number of lines. Line 1</p><p>List item containing a number of lines. Line 2</p><p>&#160;</p><table class="gridtable"><caption>Optional table caption</caption><col /><col /><thead><tr><th>dsfsdf</th><th>fsd</th></tr></thead><tbody><tr><td>sfd</td><td>dsffd</td></tr></tbody></table><p>This demonstrates the UIText style&#160;&gt;&#160;Go to <span class="UItext">Settings &gt;&#160;Developer Settings</span> in your merchant <span class="UItext">My Account</span> screen. </p><p>Image in list, see below: This image needs to be indented</p><div class="image"><p><img src="Resources/Images/ENbrowserstandardnewcreditcard.png" /></p></div></li><li>gfhfhdada</li></ol></li>
-        </ol>
-        <p class="indent2">Note that indented paragraphs must match up with the list text above</p>
-        <p>&#160;</p>
-        <p>3 levels of unordered lists:</p>
-        <ul>
-            <li>sffdsdsf</li>
-            <li>dsfsdf</li>
-            <li>fdsdsfsdf<ul><li>sffds</li><li>sdfsdf<ul><li>sfdsfdsf</li><li><p class="note">note in list</p></li></ul></li></ul></li>
-        </ul>
-        <h3>Examples of Complex Tables - These examples use the standard table class gridtable</h3>
-        <table class="gridtable2" style="caption-side: top;">
-            <caption>Example caption</caption>
-            <col />
-            <col />
-            <thead>
-                <tr>
-                    <th>This is an indented table with indent level 2 - this can be used with lists to align with the list</th>
-                    <th>
-                        <p>This is a multi-line heading</p>
-                        <p>This is the second line of a multi-line heading</p>
-                        <p>&#160;</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>single line table cell</td>
-                    <td>single line table cell</td>
-                </tr>
-                <tr class="subhead">
-                    <td>subheading - single line table cell</td>
-                    <td>
-                        <p>subheading multi-line heading</p>
-                        <p>subheading line 2</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>fsd</td>
-                    <td>
-                        <p>multi-line table cell should look the same as the single line table cell text</p>
-                        <ul>
-                            <li>example list in table</li>
-                            <li>dsad<ul><li>sasada</li><li><p>asadsa</p><p>asdasd</p><p>dasdsa</p></li></ul></li>
-                        </ul>
-                        <ol>
-                            <li>adsad<ol><li>addasddsa<ol><li>adasdads</li></ol></li></ol></li>
-                        </ol>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p class="warning2">sadadsaddsa</p>
-        <table style="caption-side: top;" class="gridtable">
-            <caption>Table Caption</caption>
-            <col />
-            <col />
-            <col />
-            <thead>
-                <tr>
-                    <th>
-                        <p>Multiline Table heading using paragraphs</p>
-                        <p>This should look the same as the single line heading</p>
-                    </th>
-                    <th>Table heading without paragraphs</th>
-                    <th>dsadasdasd</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>dfgdfgg</td>
-                    <td>dfgdfgfdg</td>
-                    <td>fdgdfgdfg</td>
-                </tr>
-                <tr class="subhead">
-                    <td>
-                        <p>sub heading table row with multiple lines using paragraphs</p>
-                        <p>paragraphs</p>
-                    </td>
-                    <td>single line subheading</td>
-                    <td>&#160;</td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <p colspan="2">Table with two cells merged. The content should be merged horizontally asdasdsad sadsa dsadjas dsa dsa dsdad sadasd sa dasd dsa dsa dsa da d asd as das dsa dsa as d sadsa sad sad sd sad dssa dsa d dsa sad dsadsa</p>
-                        <p colspan="2">&#160;</p>
-                        <p colspan="2">&#160;</p>
-                    </td>
-                    <td rowspan="2">
-                        <p rowspan="2">vertical merge of two cells</p>
-                        <p rowspan="2">sadsad</p>
-                        <div class="note">
-                            <p rowspan="2">multi-line note</p>
-                            <p rowspan="2">multi-line note</p>
-                        </div>
-                        <p rowspan="2">&#160;</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>saddas</td>
-                    <td>
-                        <p class="note">This is a single line note in a table cell</p>
-                        <p>&#160;</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Expandable Section - containing more information</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>
-                    <img src="Resources/Images/qcohideheader.png">
-                    </img>
-                </p>
-                <p class="FigureCaption">Figurecaption - This is a caption for the above Image</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <h2>Heading 2</h2>
-        <p>addsa</p>
-        <h3>Heading 3</h3>
-        <p>saddsa</p>
-        <h4>Heading 4</h4>
-        <p>saddsadsadsadsa</p>
-        <p>&#160;</p>
-        <p class="tip">single line tip</p>
-        <p>&#160;</p>
-        <div class="warning">
-            <p>This is a multi-line warning.</p>
-            <p>line 2 of warning.</p>
-        </div>
-        <div class="image">
-            <p>
-                <img src="Resources/Images/qcohideheader.png" />
-            </p>
-            <p class="FigureCaption">Figurecaption - This is a caption for the above Image</p>
-        </div>
-        <p>&#160;</p>
-        <div class="image">
-            <p class="FigureCaption">
-                <img src="Resources/Images/ENbrowserstandardbalance.png" />
-            </p>
-        </div>
-        <p>&#160;</p>
-        <div class="image">
-            <p>
-                <img src="Resources/Images/basura.svg" />
-            </p>
-            <p class="FigureCaption">SVG image example - note that it is very large in the output</p>
-        </div>
-        <p>&#160;</p>
-        <p>&#160;</p>
-        <div class="image">
-            <p>
-                <img src="Resources/Images/basura.svg" style="height: auto;width: 300px;" />
-            </p>
-            <p class="FigureCaption">SVG image example - we may need inline styling for image tags to set sizes for this kind of image as used here.</p>
-            <p class="FigureCaption">&#160;</p>
-        </div>
+  <head>
+    <title>This is a topic title field that can be modified in Flare</title>
+    <link href="Resources/Stylesheets/output.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="This is a topic description field that can be modified in Flare" />
+    <meta sourceID="1" />
+  </head>
+  <body>
+    <h1>Heading 1 - Topic Title</h1>
+    <p>This is a standard paragraph adsad asdsa d ds asd as asd a sas s a a sa da sdsdsadasdsadsda a ssa dsd as asds dsad as das dasdsadsadasdasdsadadsas dsadasdsasadsasa asd assadsa dsa sasadda adadsadsadasdasdsads a asdasdsadasd asdsad adas ad adsa dsad s a.</p>
+    <p> </p>
+    <p class="indent1">This is a level 1 indented paragraph. Not sure whether this will be required.</p>
+    <p class="indent2">This is a level 2 indented paragraph. Indent levels are needed so that we can align paragraph text with list content (if required). Not sure whether this style will be required.</p>
+    <p>Type <span class="code">cd .. this .code style is used for inline code or command line examples </span>. Let's try a parameter - <span class="parameter">status_url</span>. Note that parameters will have <b>html</b> content tooltips which provide more information in Stage 2.</p>
+    <p> </p>
+    <p>The following line shows a single inline code sample. These code samples could be used when only showing a couple of lines of code to avoid the overhead of importing a code file using the following markup &lt;pre&gt;&lt;code class="language-markup"&gt; adasd adssad ads dsa&lt;/code&gt;&lt;/pre&gt;. Prism.js would supply the syntax highlighting: </p>
+    <pre>
+      <code class="language-markup">&lt;input type="hidden" name="payment_methods" value="WLT,ACC"&gt;</code>
+    </pre>
+    <p> </p>
+    <p>The following example shows a noborder table style used to display a selection of logos:</p>
+    <table class="noborder">
+      <col />
+      <col />
+      <col />
+      <tbody>
+        <tr>
+          <td>
+            <img src="Resources/Images/skrill-powered-giropay.jpg" />
+          </td>
+          <td>
+            <img src="Resources/Images/skrill-powered-ideal.jpg" />
+          </td>
+          <td>
+            <img src="Resources/Images/skrill-powered-sofort.jpg" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>The following is a code sample (these will be picked up and replaced by the Typo3 importer from a subdirectory of the resources/Codesamples directory the prism class line-numbers will add line numbers to each line:</p>
+    <p> </p>
+    <div class="codesample">{{loadgateway}}</div>
+    <p> </p>
+    <p>and another:</p>
+    <p> </p>
+    <div class="codesample">{{jsonexample}}</div>
+    <p> </p>
+    <p>and some broken examples:</p>
+    <p> </p>
+    <div class="codesample">{{misspelled}}</div>
+    <p> </p>
+    <div class="codesample">{{misspellt}}</div>
+    <p> </p>
+    <p>Example of an local hyperlink to another topic - <a href="Topic1.htm">this is a link</a></p>
+    <p>This a link to <a href="#Heading">a Heading in this topic</a></p>
+    <p>Link to heading in another topic: <MadCap:xref href="Topic1.htm#Heading2">Heading 4</MadCap:xref></p>
+    <p>This is a link to an external website <a href="http://www.bbc.co.uk/">Link to external website - in this case the BBC</a></p>
+    <p> </p>
+    <p>The following links demonstrate a different type of table style required for more complex table styles where different tables columns and rows can have different styles (rather than just the heading and body rows)</p>
+    <ul>
+      <li>
+        <a href="Appendices/Countries/ISO countries supported.htm">ISO countries supported</a>
+      </li>
+      <li>
+        <a href="Appendices/Currencies/ISO currencies supported.htm">ISO currencies supported</a>
+      </li>
+    </ul>
+    <p> </p>
+    <p>3 levels of ordered lists:</p>
+    <ol>
+      <li>test</li>
+      <li>
+        <p>dgfdfg</p>
+        <p>sadsaddsa</p>
+      </li>
+      <li>Save the file as follows:<ol><li>Open the file</li><li>delete the file as follows:<ol><li>Click <b>save</b> - Note that <i>italics</i> can also be used.</li><li>fdsfdsfsf</li></ol></li><li>dggfd</li><li><p>List item containing a number of lines. Line 1</p><p>List item containing a number of lines. Line 2</p><p> </p><table class="gridtable"><caption>Optional table caption</caption><col /><col /><thead><tr><th>dsfsdf</th><th>fsd</th></tr></thead><tbody><tr><td>sfd</td><td>dsffd</td></tr></tbody></table><p>This demonstrates the UIText style &gt; Go to <span class="UItext">Settings &gt; Developer Settings</span> in your merchant <span class="UItext">My Account</span> screen. </p><p>Image in list, see below: This image needs to be indented</p><div class="image"><p><img src="Resources/Images/ENbrowserstandardnewcreditcard.png" /></p></div></li><li>gfhfhdada</li></ol></li>
+    </ol>
+    <p class="indent2">Note that indented paragraphs must match up with the list text above</p>
+    <p> </p>
+    <p>3 levels of unordered lists:</p>
+    <ul>
+      <li>sffdsdsf</li>
+      <li>dsfsdf</li>
+      <li>fdsdsfsdf<ul><li>sffds</li><li>sdfsdf<ul><li>sfdsfdsf</li><li><p class="note">note in list</p></li></ul></li></ul></li>
+    </ul>
+    <h3>Examples of Complex Tables - These examples use the standard table class gridtable</h3>
+    <table class="gridtable2" style="caption-side: top;">
+      <caption>Example caption</caption>
+      <col />
+      <col />
+      <thead>
+        <tr>
+          <th>This is an indented table with indent level 2 - this can be used with lists to align with the list</th>
+          <th>
+            <p>This is a multi-line heading</p>
+            <p>This is the second line of a multi-line heading</p>
+            <p> </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>single line table cell</td>
+          <td>single line table cell</td>
+        </tr>
+        <tr class="subhead">
+          <td>subheading - single line table cell</td>
+          <td>
+            <p>subheading multi-line heading</p>
+            <p>subheading line 2</p>
+          </td>
+        </tr>
+        <tr>
+          <td>fsd</td>
+          <td>
+            <p>multi-line table cell should look the same as the single line table cell text</p>
+            <ul>
+              <li>example list in table</li>
+              <li>dsad<ul><li>sasada</li><li><p>asadsa</p><p>asdasd</p><p>dasdsa</p></li></ul></li>
+            </ul>
+            <ol>
+              <li>adsad<ol><li>addasddsa<ol><li>adasdads</li></ol></li></ol></li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="warning2">sadadsaddsa</p>
+    <table style="caption-side: top;" class="gridtable">
+      <caption>Table Caption</caption>
+      <col />
+      <col />
+      <col />
+      <thead>
+        <tr>
+          <th>
+            <p>Multiline Table heading using paragraphs</p>
+            <p>This should look the same as the single line heading</p>
+          </th>
+          <th>Table heading without paragraphs</th>
+          <th>dsadasdasd</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>dfgdfgg</td>
+          <td>dfgdfgfdg</td>
+          <td>fdgdfgdfg</td>
+        </tr>
+        <tr class="subhead">
+          <td>
+            <p>sub heading table row with multiple lines using paragraphs</p>
+            <p>paragraphs</p>
+          </td>
+          <td>single line subheading</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p colspan="2">Table with two cells merged. The content should be merged horizontally asdasdsad sadsa dsadjas dsa dsa dsdad sadasd sa dasd dsa dsa dsa da d asd as das dsa dsa as d sadsa sad sad sd sad dssa dsa d dsa sad dsadsa</p>
+            <p colspan="2"> </p>
+            <p colspan="2"> </p>
+          </td>
+          <td rowspan="2">
+            <p rowspan="2">vertical merge of two cells</p>
+            <p rowspan="2">sadsad</p>
+            <div class="note">
+              <p rowspan="2">multi-line note</p>
+              <p rowspan="2">multi-line note</p>
+            </div>
+            <p rowspan="2"> </p>
+          </td>
+        </tr>
+        <tr>
+          <td>saddas</td>
+          <td>
+            <p class="note">This is a single line note in a table cell</p>
+            <p> </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <MadCap:dropDown>
+      <MadCap:dropDownHead>
+        <MadCap:dropDownHotspot>Expandable Section - containing more information</MadCap:dropDownHotspot>
+      </MadCap:dropDownHead>
+      <MadCap:dropDownBody>
         <p>
-            <button class="btn0">Button&#160;Example - (Phase 2 only) Launch Demo</button>
+          <img src="Resources/Images/qcohideheader.png">
+          </img>
         </p>
-        <p>&#160;</p>
-        <MadCap:slideshow>
-            <MadCap:slide>
-                <h2>Slide 1</h2>
-                <p>This is a slideshow with two slides - not needed in Phase 1</p>
-                <p>You can place almost any kind of content into a slide, including text, tables, snippets, images, multimedia, and more.</p>
-                <p>&#160;</p>
-            </MadCap:slide>
-            <MadCap:slide>
-                <h2>Slide 2</h2>
-                <p>Delete this text and replace it with your own slide content.</p>
-                <p>You can place almost any kind of content into a slide, including text, tables, snippets, images, multimedia, and more.</p>
-                <p>&#160;</p>
-            </MadCap:slide>
-        </MadCap:slideshow>
-        <p>Example youtube video element (not needed in Phase 1):</p>
-        <p>
-            <object src="https://www.youtube.com/watch?v=mMRgOXMzUx0" style="width: 560px;height: 315px;">
-            </object>
-        </p>
-        <p>&#160;</p>
-        <p>Example MP4 video element (not needed in Phase 1):</p>
-        <p>
-            <object MadCap:HTML5Video="true" src="Resources/Multimedia/small.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="true" MadCap:Param_autoplay="true">
-            </object>
-        </p>
-    </body>
+        <p class="FigureCaption">Figurecaption - This is a caption for the above Image</p>
+      </MadCap:dropDownBody>
+    </MadCap:dropDown>
+    <h2>Heading 2</h2>
+    <p>addsa</p>
+    <h3>Heading 3</h3>
+    <p>saddsa</p>
+    <h4>Heading 4</h4>
+    <p>saddsadsadsadsa</p>
+    <p> </p>
+    <p class="tip">single line tip</p>
+    <p> </p>
+    <div class="warning">
+      <p>This is a multi-line warning.</p>
+      <p>line 2 of warning.</p>
+    </div>
+    <div class="image">
+      <p>
+        <img src="Resources/Images/qcohideheader.png" />
+      </p>
+      <p class="FigureCaption">Figurecaption - This is a caption for the above Image</p>
+    </div>
+    <p> </p>
+    <div class="image">
+      <p class="FigureCaption">
+        <img src="Resources/Images/ENbrowserstandardbalance.png" />
+      </p>
+    </div>
+    <p> </p>
+    <div class="image">
+      <p>
+        <img src="Resources/Images/basura.svg" />
+      </p>
+      <p class="FigureCaption">SVG image example - note that it is very large in the output</p>
+    </div>
+    <p> </p>
+    <p> </p>
+    <div class="image">
+      <p>
+        <img src="Resources/Images/basura.svg" style="height: auto;width: 300px;" />
+      </p>
+      <p class="FigureCaption">SVG image example - we may need inline styling for image tags to set sizes for this kind of image as used here.</p>
+      <p class="FigureCaption"> </p>
+    </div>
+    <p>
+      <button class="btn0">Button Example - (Phase 2 only) Launch Demo</button>
+    </p>
+    <p> </p>
+    <MadCap:slideshow>
+      <MadCap:slide>
+        <h2>Slide 1</h2>
+        <p>This is a slideshow with two slides - not needed in Phase 1</p>
+        <p>You can place almost any kind of content into a slide, including text, tables, snippets, images, multimedia, and more.</p>
+        <p> </p>
+      </MadCap:slide>
+      <MadCap:slide>
+        <h2>Slide 2</h2>
+        <p>Delete this text and replace it with your own slide content.</p>
+        <p>You can place almost any kind of content into a slide, including text, tables, snippets, images, multimedia, and more.</p>
+        <p> </p>
+      </MadCap:slide>
+    </MadCap:slideshow>
+    <p>Example youtube video element (not needed in Phase 1):</p>
+    <p>
+      <object src="https://www.youtube.com/watch?v=mMRgOXMzUx0" style="width: 560px;height: 315px;">
+      </object>
+    </p>
+    <p> </p>
+    <p>Example MP4 video element (not needed in Phase 1):</p>
+    <p>
+      <object MadCap:HTML5Video="true" src="Resources/Multimedia/small.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="true" MadCap:Param_autoplay="true">
+      </object>
+    </p>
+  </body>
 </html>
